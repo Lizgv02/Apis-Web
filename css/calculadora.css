@@ -1,0 +1,98 @@
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #F4837D;
+    background-image: url('../images/calculadora.jpg');
+    font-family: 'Poppins', sans-serif;
+    }
+#entrada{
+    grid-area: p;
+    background-color: #F4837D;
+    background-image: url('../images/calculadora.jpg');
+    color: white;
+    text-align: right;
+    font-size: 4em;
+}
+#clear{
+    grid-area: c;
+}
+#supr{
+    grid-area: s;
+}
+#division{
+    grid-area: divi;
+}
+#n7{
+    grid-area: siete;
+}
+#n8{
+    grid-area: ocho;
+}
+#n9{
+    grid-area: nueve;
+}
+#multiplicacion{
+    grid-area: multi;
+}
+#n4{
+    grid-area: cuatro;
+}
+#n5{
+    grid-area: cinco;
+}
+#n6{
+    grid-area: seis;
+}
+#menos{
+    grid-area: resta;
+}
+#n1{
+    grid-area: uno;
+}
+#n2{
+    grid-area: dos;
+}
+#n3{
+    grid-area: tres;
+}
+#mas{
+    grid-area: suma;
+}
+#n0{
+    grid-area: cero;
+}
+#dot{
+    grid-area: punto;
+}
+#mn{
+    grid-area: masmenos;
+}
+#i{
+    grid-area: igual;
+}
+#clear, #supr, #n7, #n8, #n9, #n4, #n5, #n6, #n1, #n2, #n3, #n0{
+    background-color: #FFAAA6;
+    color: white;
+}
+#division, #multiplicacion, #menos, #mas, #mn, #i{
+    background-color: #DCEDC2;
+    color: black;
+}
+#contenedor{
+    display: grid;
+    grid-template-columns:  repeat(4, [col] 1fr) ;
+    grid-template-rows: repeat(7, [row] 1fr);
+    grid-template-areas:
+    "p p p p"
+    "c c s divi"
+    "siete ocho nueve multi"
+    "cuatro cinco seis resta"
+    "uno dos tres suma"
+    "cero punto masmenos igual";
+    width: 100%;
+    height: 100%;
+}
+button{
+    font-size: 4em;
+}

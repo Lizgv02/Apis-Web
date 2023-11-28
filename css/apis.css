@@ -1,0 +1,9 @@
+button{
+    font-size: 2rem;
+    width: 25%;
+    height: 100px;
+    background-color: #8C062B;
+    background-image: url('../images/fondo.jpg');
+    border-radius: 5px;
+    margin: 5px;
+}

@@ -1,0 +1,31 @@
+body{
+  background-color: violet;
+  background-image: url('../images/fondomario.jpg');
+}
+#img1, #img2{
+
+    border-radius: 50px;
+
+    height: 100px;
+
+    position: absolute;
+
+    width: 100px;
+
+  }
+
+  #img1{
+
+   left: 30px;
+
+   top: 10px;
+
+  }
+
+  #img2{
+
+   left: 150px;
+
+   top: 10px;
+
+  }

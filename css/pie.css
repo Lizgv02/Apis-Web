@@ -1,0 +1,28 @@
+.iconoRS{
+    width: 40px;
+    height: 40px;
+    padding 5px;
+    border-radius: 10px;
+  }
+  
+ .domicilio{
+    display:inline-grid;
+    float: left;
+  }
+  
+  .mapa{
+    display: inline-grid;
+    position: relative;
+    text-align: center;
+    left: auto;
+    transform: translateX(100%);
+  }
+  .mapaIMG{
+    width: 300px;
+    height: 200px;
+  }
+  
+  .redesSociales{
+    display:inline-grid;
+    float: right;
+  }

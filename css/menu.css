@@ -1,0 +1,39 @@
+.ulMenu {
+    list-style: none;
+    margin: 0px;
+    padding:0px;
+}
+
+.liMenu{
+    display: inline;
+    font-size: 1.1 em;
+    font-weight: bold;
+    margin-right: 5px;
+    background-color: antiquewhite;
+}
+
+.aMenu{
+    color: rgb(126, 31, 47);
+    background-image: url('../images/fondo1.jpg');
+    padding: 5px;
+    text-decoration: none;
+}
+
+.home{
+    background-color:  yellow;
+}
+
+.liMenu :hover{
+  background-color: teal;
+}
+
+.activo{
+    font-weight: bold;
+    font-size: 1em;
+    background-color: darkorange;
+}
+
+.aMenu2{
+    color:blue;
+    text-decoration: none;
+}
